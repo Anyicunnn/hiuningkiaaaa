@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人網站</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(90deg, #ffb6c1 40%, #f8e0e6);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: #fbd9df;
+      display: flex;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      width: 90%;
+    }
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-right: 40px;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    p {
+      margin: 10px 0 20px;
+      line-height: 1.6;
+    }
+    .pdf-links a {
+      display: block;
+      background: white;
+      padding: 10px;
+      margin: 5px 0;
+      text-align: center;
+      text-decoration: none;
+      color: #ff6f61;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .pdf-links a:hover {
+      background: #ff6f61;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="your-photo.jpg" alt="個人照片">
+    <div class="info">
+      <h1>嗨，我是 XXX</h1>
+      <p>這裡可以放你的自我介紹，例如：<br>
+      我是位來自台北的設計師／創作者，喜歡探索色彩與故事。</p>
+      <div class="pdf-links">
+        <a href="work1.pdf" target="_blank">作品一</a>
+        <a href="work2.pdf" target="_blank">作品二</a>
+        <a href="work3.pdf" target="_blank">作品三</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
