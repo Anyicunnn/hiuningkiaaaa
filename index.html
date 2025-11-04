@@ -3,65 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人首頁</title>
+    <title>Sophia Romanos's Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
+
         header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
+            background-color: #ffffff;
             text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         header h1 {
-            margin: 0;
+            font-size: 3em;
+            color: #333;
         }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
         }
-        .profile-img {
-            width: 150px;
-            height: 150px;
+
+        .profile {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .profile img {
+            width: 200px;
+            height: auto;
             border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .bio {
+
+        .intro {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .works {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .work {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-        .bio h2 {
-            margin: 0;
-            font-size: 24px;
+
+        .work h3 {
+            font-size: 1.5em;
+            color: #333;
         }
-        .bio p {
-            font-size: 16px;
-            color: #666;
+
+        .work a {
+            display: block;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
         }
+
+        .work a:hover {
+            background-color: #0056b3;
+        }
+
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>歡迎來到我的個人首頁</h1>
-    </header>
+<header>
+    <h1>Sophia Romanos</h1>
+    <p>Welcome to my personal website</p>
+</header>
 
-    <div class="container">
-        <div class="bio">
-            <!-- 替換下面的 src 路徑為你自己的照片 -->
-            <img src="your-photo.jpg" alt="我的照片" class="profile-img">
-            <h2>我是[你的名字]</h2>
-            <p>你好！這是我的個人網站，這裡會介紹一些關於我自己的資訊。</p>
-        </div>
+<div class="profile">
+    <img src="your-photo.jpg" alt="Sophia Romanos">
+</div>
+
+<div class="intro">
+    <p>Hello, I'm Sophia Romanos, a passionate creative professional. I specialize in photography and design, with a keen eye for modern aesthetics. Below are some of my works, feel free to explore!</p>
+</div>
+
+<div class="works">
+    <div class="work">
+        <h3>Project 1</h3>
+        <a href="project1.pdf" target="_blank">View Project</a>
     </div>
+    <div class="work">
+        <h3>Project 2</h3>
+        <a href="project2.pdf" target="_blank">View Project</a>
+    </div>
+    <div class="work">
+        <h3>Project 3</h3>
+        <a href="project3.pdf" target="_blank">View Project</a>
+    </div>
+</div>
 
 </body>
 </html>
